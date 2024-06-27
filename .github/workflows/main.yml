@@ -11,3 +11,5 @@ jobs:
       - run: echo "Hello World"
       - name: list files
         run: ls -a
+      - name: Checkout
+        uses: actions/checkout@v4
