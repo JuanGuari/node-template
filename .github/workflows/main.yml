@@ -1,0 +1,11 @@
+name: template proyect
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  hello-word:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello World"
