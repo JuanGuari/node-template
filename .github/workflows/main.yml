@@ -20,3 +20,5 @@ jobs:
           cache: npm
       - name: install dependencies
         run: npm i
+      - name: list files
+        run: ls -a
